@@ -1,4 +1,4 @@
-FROM eecs388/lab5
+FROM eecs388/project5
 
 USER root
 
