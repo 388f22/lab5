@@ -13,7 +13,8 @@ services:
             - 3881:5900
         volumes:
             - ..:/workspaces/lab5
-        environment: 
+            - ./Case.properties:/config/.autopsy/dev/config/Case.properties
+        environment:
             # Some sensible defaults to give Autopsy's interface enough room to breathe.
             # Feel free to change as you wish.
             - DISPLAY_WIDTH=1920
